@@ -12,8 +12,60 @@
 	font-style: italic;
 }
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
 body {
 	font-family: 'Roboto Mono', monospace;
 	font-weight: 400;
 	font-style: normal;
+}
+
+:root {
+	--light: #ffffff;
+	--dark: #181b24;
+	--grey: #899495;
+	--orange: #fc5130;
+	--sectionGrey: #f2f2f2;
+}
+
+.nav {
+	background: var(--light);
+}
+
+.header {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(./images/banner_background.jpg) center/cover fixed no-repeat;
+}
+
+.banner {
+	flex: 1 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-end;
+	color: var(--dark);
+	text-align: center;
+	padding-bottom: 4rem;
+	font-weight: 700;
+}
+
+.banner__title {
+	font-size: 4rem;
+	letter-spacing: 0.15rem;
+	margin-bottom: 0.5rem;
+	font-style: italic;
+	text-transform: capitalize;
+}
+
+.banner__jobs {
+	letter-spacing: 0.15rem;
+	text-transform: capitalize;
+	font-size: 1.5rem;
+	color: var(--light);
 }
