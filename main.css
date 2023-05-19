@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'Roboto Mono', monospace;
+	src: url('fonts/Roboto-Mono-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto Mono', monospace;
+	src: url('fonts/Roboto-Mono-BoldItalic.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+body {
+	font-family: 'Roboto Mono', monospace;
+	font-weight: 400;
+	font-style: normal;
+}
