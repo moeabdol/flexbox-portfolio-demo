@@ -1,54 +1,132 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" href="main.css">
-		<title>Flexbox Portfolio</title>
-	</head>
-	<body>
-		<header class="header">
-			<!-- first-child -->
-			<nav class="nav"></nav>
-			<!-- second-child -->
-			<section class="banner">
-				<div class="banner__container">
-					<h1 class="banner__title">i'm clever techie</h1>
-					<h1 class="banner__jobs">
-						developer
-						<span><i class="fas fa-angle-double-right"></i></span>
-						designer
-						<span><i class="fas fa-angle-double-right"></i></span>
-						photographer
-					</h1>
-				</div>
-			</section>
-		</header>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Flexbox Portfolio</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <nav class="nav"></nav>
+      <section class="banner">
+        <div class="banner__container">
+          <h1 class="banner__title">i'm clever techie</h1>
+          <h1 class="banner__jobs">
+            developer
+            <span><i class="fas fa-angle-double-right"></i></span>
+            designer
+            <span><i class="fas fa-angle-double-right"></i></span>
+            photographer
+          </h1>
+        </div>
+      </section>
+    </header>
 
-		<!-- about section -->
-		<section class="about">
-			<div class="about__center">
-				<article class="about-img">
-					<img
-						class="about-img__photo"
-						src="images/image_1.jpg"
-						alt="about image"
-					>
-				</article>
-				<article class="about-info">
-					<div class="about-info__container">
-						<h1 class="about-info__title">about me</h1>
-						<p class="about-info__text">Adipisicing aliquam sed excepturi nulla veniam, fuga Ab perspiciatis voluptates pariatur voluptatibus exercitationem! Beatae in earum error nostrum adipisci Consequuntur</p>
-						<div class="about-info__links">
-							<a class="about-info__single-link dark-btn" href="#">hire me</a>
-							<a class="about-info__single-link light-btn" href="#">download cv</a>
-						</div>
-					</div>
-				</article>
-			</div>
-		</section>
+    <!-- about section -->
+    <section class="about">
+      <div class="about__center">
+        <article class="about-img">
+          <img
+            class="about-img__photo"
+            src="images/image_1.jpg"
+            alt="about image"
+          />
+        </article>
+        <article class="about-info">
+          <div class="about-info__container">
+            <h1 class="about-info__title">about me</h1>
+            <p class="about-info__text">
+              Adipisicing aliquam sed excepturi nulla veniam, fuga Ab
+              perspiciatis voluptates pariatur voluptatibus exercitationem!
+              Beatae in earum error nostrum adipisci Consequuntur
+            </p>
+            <div class="about-info__links">
+              <a class="about-info__single-link dark-btn" href="#">hire me</a>
+              <a class="about-info__single-link light-btn" href="#"
+                >download cv</a
+              >
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
 
-		<script src="fontawesome.js"></script>
-		<script src="script.js"></script>
-	</body>
+    <!-- services section -->
+    <section class="services">
+      <div class="section-title">
+        <h1 class="section-title__name">services</h1>
+      </div>
+      <div class="services__center">
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fas fa-calendar-check"></i>
+          </div>
+          <h2 class="services__single-service-title">punctual</h2>
+          <p class="services__single-service-text">
+            Sit laboriosam delectus sed ex neque. Quas impedit perspiciatis
+            facilis
+          </p>
+        </article>
+
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h2 class="services__single-service-title">creativity</h2>
+          <p class="services__single-service-text">
+            Sit laboriosam delectus sed ex neque. Quas impedit perspiciatis
+            facilis
+          </p>
+        </article>
+
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fas fa-mobile"></i>
+          </div>
+          <h2 class="services__single-service-title">responsive design</h2>
+          <p class="services__single-service-text">
+            Sit laboriosam delectus sed ex neque. Quas impedit perspiciatis
+            facilis
+          </p>
+        </article>
+
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fas fa-cogs"></i>
+          </div>
+          <h2 class="services__single-service-title">hard work</h2>
+          <p class="services__single-service-text">
+            Sit laboriosam delectus sed ex neque. Quas impedit perspiciatis
+            facilis
+          </p>
+        </article>
+
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <h2 class="services__single-service-title">development</h2>
+          <p class="services__single-service-text">
+            Sit laboriosam delectus sed ex neque. Quas impedit perspiciatis
+            facilis
+          </p>
+        </article>
+
+        <article class="services__single-service">
+          <div class="services__single-service-icon">
+            <i class="fas fa-camera"></i>
+          </div>
+          <h2 class="services__single-service-title">photography</h2>
+          <p class="services__single-service-text">
+            Sit laboriosam delectus sed ex neque. Quas impedit perspiciatis
+            facilis
+          </p>
+        </article>
+      </div>
+    </section>
+    <script src="fontawesome.js"></script>
+    <script src="script.js"></script>
+  </body>
 </html>
